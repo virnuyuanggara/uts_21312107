@@ -31,12 +31,6 @@ class HomeController extends GetxController {
           textConfirm: "Ya",
           textCancel: "Batal",
         );
-      } catch (e) {
-        print(e);
-        Get.defaultDialog(
-          title: "Terjadi Kesalahan",
-          middleText: "Tidak Berhasil Menghapus Data",
-        );
-      }
+      } catch (e) {}
     }
   }

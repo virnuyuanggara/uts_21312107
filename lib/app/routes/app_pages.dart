@@ -28,7 +28,7 @@ class AppPages {
     ),
     GetPage(
       name: _Paths.LOGIN,
-      page: () => LoginView(),
+      page: () =>LoginView(),
       binding: LoginBinding(),
     ),
     GetPage(
